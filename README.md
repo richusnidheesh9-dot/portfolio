@@ -1,2 +1,314 @@
-# portfolio
-Data analyst portfolio by Richu S Nidheesh
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Richu S Nidheesh | Data Analyst</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #0b1120;
+    color: white;
+    line-height: 1.6;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+    background: #111827;
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    font-size: 23px;
+    font-weight: bold;
+    color: #38bdf8;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+nav a:hover {
+    color: #38bdf8;
+}
+
+.hero {
+    min-height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 80px 10%;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero h1 span {
+    color: #38bdf8;
+}
+
+.hero h2 {
+    color: #94a3b8;
+    font-size: 25px;
+}
+
+.hero p {
+    max-width: 600px;
+    margin: 20px 0;
+    color: #cbd5e1;
+}
+
+.btn {
+    display: inline-block;
+    background: #38bdf8;
+    color: #0b1120;
+    padding: 12px 25px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    width: fit-content;
+}
+
+section {
+    padding: 70px 10%;
+}
+
+.section-title {
+    font-size: 30px;
+    color: #38bdf8;
+    margin-bottom: 25px;
+}
+
+.about p {
+    color: #cbd5e1;
+    max-width: 800px;
+}
+
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+}
+
+.skill {
+    background: #1e293b;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    border: 1px solid #334155;
+}
+
+.card {
+    background: #1e293b;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.card p {
+    color: #cbd5e1;
+    margin-top: 8px;
+}
+
+.contact a {
+    color: #38bdf8;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    background: #111827;
+    color: #94a3b8;
+}
+
+@media(max-width: 600px) {
+    nav {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    nav a {
+        margin: 5px;
+        font-size: 13px;
+    }
+
+    .hero h1 {
+        font-size: 34px;
+    }
+
+    .hero h2 {
+        font-size: 20px;
+    }
+
+    section {
+        padding: 50px 7%;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+    <div class="logo">Richu.</div>
+    <div>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+    </div>
+</nav>
+
+<!-- HOME -->
+
+<div class="hero" id="home">
+
+    <h2>Hello, I'm</h2>
+
+    <h1>Richu <span>S Nidheesh</span></h1>
+
+    <h2>Aspiring Data Analyst</h2>
+
+    <p>
+        I am learning Data Analytics and developing
+        practical skills in Excel, SQL, Power BI and Python.
+        I am passionate about turning data into useful insights.
+    </p>
+
+    <a href="#contact" class="btn">Contact Me</a>
+
+</div>
+
+<!-- ABOUT -->
+
+<section class="about" id="about">
+
+    <h2 class="section-title">About Me</h2>
+
+    <p>
+        I am an aspiring Data Analyst from Kozhikode, Kerala.
+        I have completed ITI in Computer Operator and
+        Programming Assistant (COPA).
+
+        Currently, I am pursuing Data Analytics training
+        at Upcode Software Labs.
+
+        My goal is to develop strong analytical skills
+        and build a career in Data Analytics.
+    </p>
+
+</section>
+
+<!-- SKILLS -->
+
+<section id="skills">
+
+    <h2 class="section-title">My Skills</h2>
+
+    <div class="skills-container">
+
+        <div class="skill">Microsoft Excel</div>
+
+        <div class="skill">SQL</div>
+
+        <div class="skill">Power BI</div>
+
+        <div class="skill">Python</div>
+
+        <div class="skill">Power Query</div>
+
+        <div class="skill">Data Cleaning</div>
+
+    </div>
+
+</section>
+
+<!-- EDUCATION -->
+
+<section id="education">
+
+    <h2 class="section-title">Education</h2>
+
+    <div class="card">
+        <h3>Data Analytics</h3>
+        <p>Upcode Software Labs</p>
+        <p>Currently Pursuing</p>
+    </div>
+
+    <div class="card">
+        <h3>ITI - COPA</h3>
+        <p>Indus ITI</p>
+        <p>Completed - 2026</p>
+    </div>
+
+</section>
+
+<!-- PROJECTS -->
+
+<section id="projects">
+
+    <h2 class="section-title">My Projects</h2>
+
+    <div class="card">
+        <h3>Projects Coming Soon</h3>
+        <p>
+            I am currently developing practical
+            Data Analytics projects.
+        </p>
+    </div>
+
+</section>
+
+<!-- CONTACT -->
+
+<section class="contact" id="contact">
+
+    <h2 class="section-title">Contact Me</h2>
+
+    <p>Email: YOUR_EMAIL@example.com</p>
+
+    <p>Phone: YOUR_PHONE_NUMBER</p>
+
+    <p>
+        LinkedIn:
+        <a href="https://linkedin.com/" target="_blank">
+            My LinkedIn
+        </a>
+    </p>
+
+    <p>
+        GitHub:
+        <a href="https://github.com/" target="_blank">
+            My GitHub
+        </a>
+    </p>
+
+</section>
+
+<footer>
+    <p>© 2026 Richu S Nidheesh | Data Analyst Portfolio</p>
+</footer>
+
+</body>
+</html>
+s
